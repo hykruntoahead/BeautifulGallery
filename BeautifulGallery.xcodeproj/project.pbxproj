@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		263CA1791EA0A634009BB91B /* JapanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263CA1781EA0A634009BB91B /* JapanViewController.swift */; };
 		265071161E9F66220075F8C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265071151E9F66220075F8C0 /* AppDelegate.swift */; };
 		265071181E9F66220075F8C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265071171E9F66220075F8C0 /* ViewController.swift */; };
 		2650711B1E9F66220075F8C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 265071191E9F66220075F8C0 /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		265071201E9F66220075F8C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2650711E1E9F66220075F8C0 /* LaunchScreen.storyboard */; };
 		2650712B1E9F66220075F8C0 /* BeautifulGalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2650712A1E9F66220075F8C0 /* BeautifulGalleryTests.swift */; };
 		265071361E9F66220075F8C0 /* BeautifulGalleryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265071351E9F66220075F8C0 /* BeautifulGalleryUITests.swift */; };
+		265071441E9F6D6B0075F8C0 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265071431E9F6D6B0075F8C0 /* ViewControllerExtension.swift */; };
+		265071461E9F705B0075F8C0 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265071451E9F705B0075F8C0 /* GalleryViewController.swift */; };
+		2650714A1EA076320075F8C0 /* KoreanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265071491EA076320075F8C0 /* KoreanViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		263CA1781EA0A634009BB91B /* JapanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JapanViewController.swift; sourceTree = "<group>"; };
 		265071121E9F66220075F8C0 /* BeautifulGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeautifulGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		265071151E9F66220075F8C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		265071171E9F66220075F8C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,9 @@
 		265071311E9F66220075F8C0 /* BeautifulGalleryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeautifulGalleryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		265071351E9F66220075F8C0 /* BeautifulGalleryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulGalleryUITests.swift; sourceTree = "<group>"; };
 		265071371E9F66220075F8C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		265071431E9F6D6B0075F8C0 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		265071451E9F705B0075F8C0 /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		265071491EA076320075F8C0 /* KoreanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KoreanViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,10 @@
 			children = (
 				265071151E9F66220075F8C0 /* AppDelegate.swift */,
 				265071171E9F66220075F8C0 /* ViewController.swift */,
+				265071431E9F6D6B0075F8C0 /* ViewControllerExtension.swift */,
+				265071451E9F705B0075F8C0 /* GalleryViewController.swift */,
+				263CA1781EA0A634009BB91B /* JapanViewController.swift */,
+				265071491EA076320075F8C0 /* KoreanViewController.swift */,
 				265071191E9F66220075F8C0 /* Main.storyboard */,
 				2650711C1E9F66220075F8C0 /* Assets.xcassets */,
 				2650711E1E9F66220075F8C0 /* LaunchScreen.storyboard */,
@@ -260,7 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				265071181E9F66220075F8C0 /* ViewController.swift in Sources */,
+				2650714A1EA076320075F8C0 /* KoreanViewController.swift in Sources */,
+				265071461E9F705B0075F8C0 /* GalleryViewController.swift in Sources */,
 				265071161E9F66220075F8C0 /* AppDelegate.swift in Sources */,
+				263CA1791EA0A634009BB91B /* JapanViewController.swift in Sources */,
+				265071441E9F6D6B0075F8C0 /* ViewControllerExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +521,7 @@
 				2650713C1E9F66220075F8C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2650713D1E9F66220075F8C0 /* Build configuration list for PBXNativeTarget "BeautifulGalleryTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +530,7 @@
 				2650713F1E9F66220075F8C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		265071401E9F66220075F8C0 /* Build configuration list for PBXNativeTarget "BeautifulGalleryUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +539,7 @@
 				265071421E9F66220075F8C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
